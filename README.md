@@ -6,6 +6,7 @@ customer behaviour, sales trends, and purchase patterns.
 ## 🔧 Tech Stack
 - **Python** — Pandas, NumPy, Scikit-learn, Plotly
 - **PostgreSQL** — Supabase (cloud database)
+- **Power BI** — Interactive dashboard
 - **FastAPI** — REST API for predictions
 - **Streamlit** — Interactive web app
 
@@ -32,6 +33,9 @@ uvicorn api.main:app --reload
 ### 4. Run Streamlit
 streamlit run app/streamlit_app.py
 
+## 📊 Dashboard
+Built using Power BI with KPIs, revenue trends,
+customer segments and filters.
 
 ## 🤖 ML Models
 - K-Means Clustering — Customer Segmentation
